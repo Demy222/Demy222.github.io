@@ -1,117 +1,111 @@
-<!DOCTYPE html> <!-- Dit vertelt de browser dat dit een HTML-pagina is. -->
-<html><!--Begin van mijn homepagina-->
-<head><!--Begin head-->
-    <title>Kleurmodellen</title>
-<link rel="stylesheet" href="opmaak.css"> <!--Dit is de hoe css is gekoppeld met mijn index html-->
-</head><!--Einde head-->
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compressie</title>
+
+    <link rel="stylesheet" href="opmaak.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/Afbeeldingen map/logovanjohnbazaicon.PNG">
+</head>
+
 <body class="index">
 
-<!--Dit is me menubalk-->
+    <!-- Menubalk -->
     <ul class="menu">
-        <li><a href="index.html">Home</a></li><!--Link die je naar mijn homepagina stuurt-->
-        <li><a href="kleurmodellen.html">Kleurmodellen</a></li><!--Link die je naar mijn kleurmodellen uitleg stuurt-->
-        <li><a href="Binair stelsel.html">Binair Stelsel</a></li><!--Link die je naar mijn binairstelsel uitleg stuurt-->
-        <li><a href="compressie.html">Compressie</a></li><!--Link die je naar mijn compressie uitleg stuurt-->
-        <li><a href="IUV.html">Invoer - Verwerking - Uitvoer</a></li><!--Link die je naar mijn IUV stuurt-->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+        <li><a href="Binair stelsel.html">Binair Stelsel</a></li>
+        <li><a href="compressie.html">Compressie</a></li>
+        <li><a href="IUV.html">Invoer - Verwerking - Uitvoer</a></li>
     </ul>
 
-<!DOCTYPE html> <!--Compressie-->
-<html> <!--html element-->
-  <head>
-    <link rel="stylesheet" href="/layout.css">
-    <link rel="shortcut icon" type="x-icon" href="/Afbeeldingen map/logovanjohnbazaicon.PNG">
-    <title>Compressie</title>
-    <meta charset="utf-8">
-    <meta name="vieuwport" content="width=device-width, initial-scale=1.0"> <!--Hiermee maak ik de site mobielvriendelijk-->
-  </head>
-  <body id="body4"><!--Hiermee link ik deze pagina naar het css betand -->
+    <!-- Header -->
+    <div class="header">
+        <h1>Compressie</h1>
+    </div>
 
-    <div class="header"><!--Hiermee link ik de header naar het css bestand-->
-      <h1>Compressie</h1><!--Titel van de header -->  
-  </div>
+    <h1 class="paragraaf">Wat is compressie?</h1>
+    <p>
+        Bestanden kunnen veel opslagruimte innemen waardoor een harde schijf snel vol wordt.
+        Om dit probleem op te lossen bestaat er bestandscompressie. Bestandscompressie zorgt
+        ervoor dat de grootte van bestanden wordt verkleind. Hierdoor kunnen bestanden sneller
+        gedownload worden van het internet en raakt je opslag minder snel vol.
 
-  <ul><!--Hiermee maak ik een menu aan -->
-    <li><a href="/index.html">Homepage</a></li><!--Link naar homepage -->
-    <li><a href="/Html/algemeneinformatie.html">Algemene informatie</a></li><!--Link naar algemene informatie pagina -->
-    <li><a href="/Html/binairestelsel.html">Binaire stelsel</a></li><!--Link naar binaire stelsel pagina-->
-    <li><a href="/Html/kleurmodellen.html">Kleurmodellen</a></li><!--Link naar kleurmodellen pagina -->
-    <li><a class="active" href="/Html/compressie.html">Compressie</a></li><!--Link naar compressie pagina -->
-    <li><a href="/Html/bestandsformaten.html">Bestandsformaten</a></li><!--Link naar bestandsformaten pagina-->
-    <li><a href="/Html/api.html">API</a></li><!--Link naar API -->
+        Er zijn twee soorten bestandscompressie, genaamd lossy compression en lossless compression.
+        Geen van de twee is beter dan de ander, maar ze kunnen in verschillende situaties handiger zijn.
+    </p>
 
-    <div class="dropdown">
-     <button class="dropbtn">Lagenmodel
-     </button>
-      <div class="dropdown-content">
-          <li><a href="3-lagenmodel.html">Het 3-lagenmodel</a></li>
-          <li><a href="fysiekelaag.html">Fysieke laag</a></li>
-          <li><a href="ogischelaag.html">Logische laag</a></li>
-          <li><a href="toepassingslaag.html">Toepassingslaag</a></li>
-      </div>
-    </div> 
+    <h1 class="paragraaf">Lossy compressie</h1>
+    <p>
+        Lossy compression zorgt ervoor dat een bestand kleiner wordt door informatie uit het
+        originele bestand aan te passen of te verwijderen. De kwaliteit wordt daardoor minder.
 
-      <h1 class="paragraaf">Wat is compressie?</h1><!--Hiermee geef ik deze aliniea een kopje-->
-      <p><!--Hiermee maak ik een paragraaf aan-->  
-        Bestanden kunnen veel opslagruimte innemen waardoor een harde schijf snel vol wordt. 
-        Om dit probleem op te lossen bestaat er bestandscompressie. Bestandscompressie zorgt 
-        er voor dat de grootte van bestanden wordt verkleint. Hierdoor kunnen bestanden sneller 
-        gedownload worden van het internet en raakt je opslag minder snel vol. Er zijn twee soorten bestandscompressie, 
-        genaamd lossy compression en lossless compression. Geen van de twee zijn beter dan elkaar, 
-        maar ze kunnen handiger zijn dan de andere in situaties. 
-      </p>
+        Lossy compression wordt gebruikt voor afbeeldingsbestanden zoals JPEG en GIF en voor
+        audiobestanden zoals MP3 en OGG. Lossy compression kun je beter gebruiken voor minder
+        belangrijke bestanden.
+    </p>
 
-      <h1 class="paragraaf">Lossy compressie</h1><!--Hiermee geef ik deze aliniea een kopje-->
-      <p><!--Hiermee maak ik een paragraaf aan--> 
-        Lossy compression zorgt er voor dat een bestand kleiner wordt door informatie uit het originele bestand aanpassen en verwijderen. 
-        De kwaliteit wordt dan wel minder. 
+    <h1 class="paragraaf">Lossless compressie</h1>
+    <p>
+        Lossless compression zorgt ervoor dat de kwaliteit van een bestand behouden blijft doordat
+        er geen informatie wordt verwijderd. In plaats daarvan wordt de inhoud efficiënter opgeslagen.
 
-        Lossy compression wordt gebruikt voor afbeeldingsbestanden zoals JPEG en GIF, en het wordt gebruikt voor audiobestanden zoals MP3 en OGG.
-        Lossy compression kun je beter gebruiken voor minder belangrijke bestanden. 
-      </p>
+        Als bijvoorbeeld vijf pixels naast elkaar dezelfde waarde hebben, zoals
+        (16,16,16,16,16), dan kan dit worden opgeslagen als (5,16).
 
-      <h1 class="paragraaf">Lossless compressie</h1><!--Hiermee geef ik deze aliniea een kopje-->
-      <p><!--Hiermee maak ik een paragraaf aan-->   
-        Lossless compression zorgt er voor dat de kwaliteit van een bestand wordt behouden door geen informatie te verwijderen. 
-        Lossless compression zorgt er voor dat de inhoud op een andere efficiënte manier wordt opgeslagen. Als 5 pixels die naast 
-        elkaar staan dezelfde waarde hebben zoals bijvoorbeeld 16, wordt dit in plaats van als (16,16,16,16,16) als (5,16) opgeslagen. 
-    
-        Lossless compression wordt gebruikt voor afbeeldingsbestanden zoals RAW en PNG,  en het wordt gebruikt voor audiobestanden zoals WAV en FLAC. 
-        Lossy compression kun je beter gebruiken voor belangrijke bestanden. 
-      </p>
+        Lossless compression wordt gebruikt voor afbeeldingsbestanden zoals RAW en PNG en voor
+        audiobestanden zoals WAV en FLAC. Deze vorm van compressie is handig voor belangrijke bestanden.
+    </p>
 
-      <h1 class="paragraaf">Bestand na compressie</h1><!--Hiermee geef ik deze aliniea een kopje-->
-      <p><!--Hiermee maak ik een paragraaf aan-->   
-        Een bestand waarbij lossless compression is toegepast kan weer worden teruggekeerd naar het originele staat. 
-        Een bestand waarbij lossy compression is toegepast kan niet worden teruggekeerd naar het originele staat aangezien er informatie is verwijderd.
-      </p>
+    <h1 class="paragraaf">Bestand na compressie</h1>
+    <p>
+        Een bestand waarbij lossless compression is toegepast kan weer worden teruggebracht naar
+        de originele staat. Een bestand waarbij lossy compression is toegepast kan niet volledig
+        worden hersteld omdat er informatie is verwijderd.
+    </p>
 
-      <h1 class="paragraaf">Compressie bij geluidsfragmenten</h1><!--Hiermee geef ik deze aliniea een kopje-->
-      <p><!--Hiermee maak ik een paragraaf aan-->   
-        Naast afbeeldingen en video’s kunnen ook geluidsfragmenten gecomprimeerd worden. Een bekende compressiemethode 
-        voor geluidsfragmenten is MP3. Hierbij wordt er gebruikgemaakt van lossy compression. Veel geluid kan weggelaat 
-        worden zonder dat je er iets van merkt aangezien mensen geen tonen boven de 20kHz kunnen horen. 
-        Bij compressie van MP3 geluidsfragmenten worden tonen hoger dan 16 kHz weggelaten als er op dat moment ook ander 
-        geluid zich afspeelt in het geluidsfragment. 
-        
-        De sample rate van muziek is 1441,2 kbps als er 32 bits worden gebruikt. Aangezien het verschil met het 
-        origineel boven 256 kbps niet opvalt kun je gebruik maken van lossy compression. 
-        De klanken veranderen dan nauwelijks.
-      </p>
-      
-      <iframe src="https://www.youtube.com/embed/3nym3fkHqyk" width="420" height="345"><!--Hiermee heb ik een video in deze pagina geplakt-->
-      </iframe>
+    <h1 class="paragraaf">Compressie bij geluidsfragmenten</h1>
+    <p>
+        Naast afbeeldingen en video's kunnen ook geluidsfragmenten gecomprimeerd worden.
+        Een bekende compressiemethode voor geluidsfragmenten is MP3. Hierbij wordt gebruikgemaakt
+        van lossy compression.
 
-      <img src="/Afbeeldingen map/compressieafbeelding.png" target="_blank" alt="Compressie"><!--Hiermee heb ik een afbeelding in deze pagina gezet-->
-      
-      <footer class="footer"><!--Hiermee maak ik een footer aan-->
+        Veel geluid kan worden weggelaten zonder dat mensen dit merken, omdat mensen geen tonen
+        boven de 20 kHz kunnen horen. Bij MP3-compressie worden tonen hoger dan ongeveer 16 kHz
+        vaak verwijderd wanneer er tegelijkertijd andere geluiden aanwezig zijn.
+
+        De klank van de muziek verandert hierdoor nauwelijks, terwijl de bestandsgrootte flink afneemt.
+    </p>
+
+    <!-- Video -->
+    <iframe
+        width="420"
+        height="345"
+        src="https://www.youtube.com/embed/3nym3fkHqyk"
+        title="Video over compressie">
+    </iframe>
+
+    <br><br>
+
+    <!-- Afbeelding -->
+    <img src="/Afbeeldingen map/compressieafbeelding.png"
+         alt="Compressie voorbeeld"
+         width="500">
+
+    <!-- Footer -->
+    <footer class="footer">
         <p>
-        Gemaakt door Demy POtters
-        <br>
-        Mail naar:
+            Gemaakt door Demy Potters
+            <br>
+            Mail naar:
         </p>
-        <a href="mailto:demy.potters@vlietlandcollege.nl">demy.potters@vlietlandcollege.nl
-        </a><!--Hiermee laat ik zien wie de maker van deze site is + een mail link -->
-      </footer>
 
-  </body>
+        <a href="mailto:demy.potters@vlietlandcollege.nl">
+            demy.potters@vlietlandcollege.nl
+        </a>
+    </footer>
+
+</body>
 </html>
